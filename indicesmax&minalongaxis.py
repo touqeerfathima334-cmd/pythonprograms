@@ -1,0 +1,9 @@
+import numpy as np
+arr2d=np.array([[10,60,30],[80,30,50]])
+print(arr2d)
+print("Max:",np.max(arr2d))
+print("Min:",np.min(arr2d))
+print("Argmax:",np.argmax(arr2d))
+print("Argmin:",np.argmin(arr2d))
+print("Argmax along axis 0:",np.argmax(arr2d,axis=0))
+print("Argmin along axis 1:",np.argmin(arr2d,axis=1))
